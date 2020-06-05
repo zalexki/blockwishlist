@@ -19,7 +19,6 @@
 
 <div
   class="wishlist-login"
-  data-url="{$url}"
   data-login-text="{l s='Sign in' mod='blockwishlist'}"
   data-cancel-text="{l s='Cancel' mod='blockwishlist'}"
 >
@@ -47,7 +46,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <p class="modal-text">{l s='You need to be logged in to save products in your wishlist.' mod='blockwishlist'}</p> 
+          <p class="modal-text">{l s='You need to be logged in to save products in your wishlist.' mod='blockwishlist'}</p>
         </div>
         <div class="modal-footer">
           <button
@@ -71,7 +70,7 @@
     </div>
   </div>
 
-  <div 
+  <div
     class="modal-backdrop fade"
     {literal}
       :class="{in: !isHidden}"
